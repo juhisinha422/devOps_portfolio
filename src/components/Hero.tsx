@@ -6,10 +6,31 @@ const Hero = () => {
     <section id="about" className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Side - Profile Circle */}
-          <div className="flex justify-center lg:justify-end">
+          {/* Left Side - Profile Circle with Stats */}
+          <div className="flex flex-col items-center lg:items-end space-y-8">
+            {/* Stats Cards */}
+            <div className="grid grid-cols-2 gap-4 w-full max-w-sm">
+              <div className="bg-gradient-to-br from-blue-500/20 to-blue-600/20 rounded-xl p-4 border border-blue-500/30 text-center">
+                <div className="text-2xl font-bold text-blue-400">6+</div>
+                <div className="text-xs text-gray-400">Years Experience</div>
+              </div>
+              <div className="bg-gradient-to-br from-green-500/20 to-green-600/20 rounded-xl p-4 border border-green-500/30 text-center">
+                <div className="text-2xl font-bold text-green-400">50+</div>
+                <div className="text-xs text-gray-400">Projects Deployed</div>
+              </div>
+              <div className="bg-gradient-to-br from-purple-500/20 to-purple-600/20 rounded-xl p-4 border border-purple-500/30 text-center">
+                <div className="text-2xl font-bold text-purple-400">99.9%</div>
+                <div className="text-xs text-gray-400">Uptime SLA</div>
+              </div>
+              <div className="bg-gradient-to-br from-orange-500/20 to-orange-600/20 rounded-xl p-4 border border-orange-500/30 text-center">
+                <div className="text-2xl font-bold text-orange-400">24/7</div>
+                <div className="text-xs text-gray-400">Monitoring</div>
+              </div>
+            </div>
+
+            {/* Main Profile Circle */}
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-blue-500 via-purple-600 to-teal-500 rounded-full flex items-center justify-center shadow-2xl">
+              <div className="w-80 h-80 bg-gradient-to-br from-blue-500 via-purple-600 to-teal-500 rounded-full flex items-center justify-center shadow-2xl animate-spin-slow">
                 <div className="w-72 h-72 bg-gray-900 rounded-full flex items-center justify-center border-4 border-white/20">
                   <div className="text-center">
                     <Cloud size={64} className="text-white mx-auto mb-4" />
@@ -28,6 +49,16 @@ const Hero = () => {
               <div className="absolute top-1/2 -left-8 w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center shadow-lg animate-ping">
                 <Shield size={16} className="text-white" />
               </div>
+            </div>
+
+            {/* Tech Stack Badges */}
+            <div className="flex flex-wrap justify-center gap-2 max-w-sm">
+              <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm border border-blue-500/30">AWS</span>
+              <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm border border-green-500/30">Kubernetes</span>
+              <span className="bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full text-sm border border-purple-500/30">Docker</span>
+              <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm border border-orange-500/30">Azure DevOps</span>
+              <span className="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm border border-red-500/30">Terraform</span>
+              <span className="bg-teal-500/20 text-teal-400 px-3 py-1 rounded-full text-sm border border-teal-500/30">Prometheus</span>
             </div>
           </div>
           

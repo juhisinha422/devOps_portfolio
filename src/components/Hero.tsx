@@ -11,7 +11,7 @@ const Hero = () => {
             {/* Stats Cards */}
             <div className="grid grid-cols-2 gap-4 w-full max-w-sm">
               <div className="bg-gradient-to-br from-blue-500/20 to-blue-600/20 rounded-xl p-4 border border-blue-500/30 text-center">
-                <div className="text-2xl font-bold text-blue-400">6+</div>
+                <div className="text-2xl font-bold text-blue-400">4+</div>
                 <div className="text-xs text-gray-400">Years Experience</div>
               </div>
               <div className="bg-gradient-to-br from-green-500/20 to-green-600/20 rounded-xl p-4 border border-green-500/30 text-center">
@@ -56,7 +56,7 @@ const Hero = () => {
               <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm border border-blue-500/30">AWS</span>
               <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm border border-green-500/30">Kubernetes</span>
               <span className="bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full text-sm border border-purple-500/30">Docker</span>
-              <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm border border-orange-500/30">Azure DevOps</span>
+              <span className="bg-orange-500/20 text-orange-400 px-3 py-1 rounded-full text-sm border border-orange-500/30">AWS DevOps</span>
               <span className="bg-red-500/20 text-red-400 px-3 py-1 rounded-full text-sm border border-red-500/30">Terraform</span>
               <span className="bg-teal-500/20 text-teal-400 px-3 py-1 rounded-full text-sm border border-teal-500/30">Prometheus</span>
             </div>
@@ -66,14 +66,14 @@ const Hero = () => {
           <div className="text-left">
             <div className="mb-8">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-                <span className="text-white">Bhupendra Singh</span><br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Chouhan</span>
+                <span className="text-white">Juhi</span><br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Sinha</span>
               </h1>
               <h2 className="text-xl md:text-2xl text-gray-300 mb-6">
-                Senior Cloud & DevOps Engineer
+                AWS Cloud & DevOps Engineer
               </h2>
               <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg p-4 mb-6 border border-blue-500/30">
-                <p className="text-blue-300 font-semibold text-lg">6+ Years of Experience in IT Industry</p>
+                <p className="text-blue-300 font-semibold text-lg">4+ Years of Experience in IT Industry</p>
               </div>
             </div>
             
@@ -89,21 +89,21 @@ const Hero = () => {
                 <Mail className="w-5 h-5 text-blue-400 mr-3" />
                 <div>
                   <p className="text-xs text-gray-400">Email</p>
-                  <p className="text-sm text-white">bhups723@gmail.com</p>
+                  <p className="text-sm text-white">jsinha1199@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center bg-gray-800/50 rounded-lg p-3 border border-gray-700">
                 <Phone className="w-5 h-5 text-green-400 mr-3" />
                 <div>
                   <p className="text-xs text-gray-400">Phone</p>
-                  <p className="text-sm text-white">+91 8769560336</p>
+                  <p className="text-sm text-white">+91 1234567890</p>
                 </div>
               </div>
               <div className="flex items-center bg-gray-800/50 rounded-lg p-3 border border-gray-700">
                 <MapPin className="w-5 h-5 text-purple-400 mr-3" />
                 <div>
                   <p className="text-xs text-gray-400">Location</p>
-                  <p className="text-sm text-white">Udaipur, Rajasthan</p>
+                  <p className="text-sm text-white">Patna, Bihar</p>
                 </div>
               </div>
             </div>

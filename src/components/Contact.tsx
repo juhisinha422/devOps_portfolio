@@ -25,7 +25,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-gray-300">Email</p>
-                    <p className="text-blue-400">bhups723@gmail.com</p>
+                    <p className="text-blue-400">jsinha1199@gmail.com</p>
                   </div>
                 </div>
                 
@@ -35,7 +35,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-gray-300">Phone</p>
-                    <p className="text-blue-400">+91 8769560336</p>
+                    <p className="text-blue-400">+91 1234567890</p>
                   </div>
                 </div>
                 
@@ -45,7 +45,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-gray-300">Location</p>
-                    <p className="text-blue-400">Udaipur, Rajasthan</p>
+                    <p className="text-blue-400">Patna, Bihar</p>
                   </div>
                 </div>
               </div>
@@ -145,7 +145,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © 2024 Bhupendra Singh Chouhan. Built with modern DevOps practices and deployed on AWS.
+            © 2025 Juhi Sinha. Built with modern DevOps practices and deployed on AWS.
           </p>
         </div>
       </div>

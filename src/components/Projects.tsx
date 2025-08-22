@@ -17,7 +17,7 @@ const Projects = () => {
     },
     {
       title: 'CI/CD Pipeline Automation',
-      description: 'Built comprehensive CI/CD pipelines using Azure DevOps and GitHub Actions, implementing automated testing, security scanning, and deployment across multiple environments.',
+      description: 'Built comprehensive CI/CD pipelines using AWS DevOps and GitHub Actions, implementing automated testing, security scanning, and deployment across multiple environments.',
       icon: <GitBranch className="w-8 h-8" />,
       color: 'from-green-500 to-green-600',
       technologies: ['Azure DevOps', 'GitHub Actions', 'Docker', 'Kubernetes', 'SonarQube'],

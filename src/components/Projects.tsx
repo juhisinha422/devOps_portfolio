@@ -20,7 +20,7 @@ const Projects = () => {
       description: 'Built comprehensive CI/CD pipelines using AWS DevOps and GitHub Actions, implementing automated testing, security scanning, and deployment across multiple environments.',
       icon: <GitBranch className="w-8 h-8" />,
       color: 'from-green-500 to-green-600',
-      technologies: ['Azure DevOps', 'GitHub Actions', 'Docker', 'Kubernetes', 'SonarQube'],
+      technologies: ['AWS DevOps', 'GitHub Actions', 'Docker', 'Kubernetes', 'SonarQube'],
       achievements: [
         'Reduced deployment time from 4 hours to 15 minutes',
         'Implemented automated security scanning',

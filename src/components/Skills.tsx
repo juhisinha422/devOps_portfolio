@@ -30,7 +30,7 @@ const Skills = () => {
       icon: <GitBranch className="w-6 h-6" />,
       color: 'from-green-500 to-green-600',
       skills: [
-        { name: 'Azure DevOps', level: 92 },
+        { name: 'AWS DevOps', level: 92 },
         { name: 'GitHub Actions', level: 88 },
         { name: 'Jenkins', level: 85 },
         { name: 'Git & GitFlow', level: 95 },

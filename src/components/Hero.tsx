@@ -78,7 +78,7 @@ const Hero = () => {
             </div>
             
             <p className="text-lg text-gray-400 mb-8 leading-relaxed">
-              Passionate Cloud & DevOps Engineer with 6+ years of experience specializing in building scalable infrastructure, 
+              Passionate Cloud & DevOps Engineer with 4+ years of experience specializing in building scalable infrastructure, 
               automating CI/CD pipelines, and optimizing cloud architectures. Expert in AWS, 
               Kubernetes, Docker, and modern DevOps practices with a focus on reliability and performance.
             </p>

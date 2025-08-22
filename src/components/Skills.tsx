@@ -42,9 +42,9 @@ const Skills = () => {
       icon: <Container className="w-6 h-6" />,
       color: 'from-purple-500 to-purple-600',
       skills: [
-        { name: 'Kubernetes', level: 88 },
+        { name: 'Kubernetes', level: 85 },
         { name: 'Docker', level: 92 },
-        { name: 'Helm Charts', level: 85 },
+        { name: 'Helm Charts', level: 82 },
         { name: 'Container Security', level: 80 },
         { name: 'Microservices', level: 87 }
       ]
